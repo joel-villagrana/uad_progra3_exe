@@ -1,0 +1,30 @@
+# IGNORE TEMPORARY COMPILATION FILES
+# ----------------------------------
+#
+# ------------------------------------------------------
+# PDB, IPDB, ILK, IOBJ
+# ------------------------------------------------------
+/uad_progra3/Binaries/Exe/x86/Release/*.iobj
+/uad_progra3/Binaries/Exe/x86/Release/*.ipdb
+/uad_progra3/Binaries/Exe/x86/Release/*.pdb
+/uad_progra3/Binaries/Exe/x86/Debug/*.ilk
+/uad_progra3/Binaries/Exe/x86/Debug/*.pdb
+/uad_progra3/Binaries/Exe/x64/Release/*.iobj
+/uad_progra3/Binaries/Exe/x64/Release/*.ipdb
+/uad_progra3/Binaries/Exe/x64/Release/*.pdb
+/uad_progra3/Binaries/Exe/x64/Debug/*.ilk
+/uad_progra3/Binaries/Exe/x64/Debug/*.pdb
+# ------------------------------------------------------
+# Intermediate compilation files (.obj)
+# ------------------------------------------------------
+/uad_progra3/Binaries/Intermediate
+/uad_progra3/Binaries/Intermediate/*
+# ------------------------------------------------------
+# Visual Studio Intellisense *VC.db file
+# ------------------------------------------------------
+/uad_progra3/.vs
+/uad_progra3/.vs/*
+/uad_progra3/uad_progra3.VC.db
+/uad_progra3/uad_progra3_final.VC.db
+/uad_progra3/uad_progra3_final.VC.VC.opendb
+#
