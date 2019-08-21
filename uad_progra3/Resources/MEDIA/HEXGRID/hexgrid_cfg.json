@@ -1,8 +1,73 @@
 {
 	"HexGrid" : {
-		"numCols" : 20,
-		"numRows" : 20,
-		"cellSize" : 1.0,
+		"numCols"     : 20,
+		"numRows"     : 15,
+		"cellSize"    : 1.75,
 		"orientation" : "pointy"
-	}
+	},
+	"Models" : [
+		{
+			"name"     : "BirchTree_5", 
+			"filename" : "MODELS\\OBJ\\BirchTree_5.obj" 
+		},
+		{ 
+			"name"     : "BirchTree_1", 
+			"filename" : "MODELS\\OBJ\\BirchTree_1.obj" 
+		},
+		{ 
+			"name"     : "BirchTree_Dead_Snow_2", 
+			"filename" : "MODELS\\OBJ\\BirchTree_Dead_Snow_2.obj" 
+		},
+		{ 
+			"name"     : "BushBerries_1", 
+			"filename" : "MODELS\\OBJ\\BushBerries_1.obj" 
+		},
+		{ 
+			"name"     : "CommonTree_Autumn_5",
+			"filename" : "MODELS\\OBJ\\CommonTree_Autumn_5.obj" 
+		},
+		{ 
+			"name"     : "Rock_Moss_5",
+			"filename" : "MODELS\\OBJ\\Rock_Moss_5.obj" 
+		},
+		{ 
+			"name"     : "Grass_2",
+			"filename" : "MODELS\\OBJ\\Grass_2.obj" 
+		},
+		{ 
+			"name"     : "Grass_Short",
+			"filename" : "MODELS\\OBJ\\Grass_Short.obj" 
+		},
+		{ 
+			"name"     : "PineTree_4",
+			"filename" : "MODELS\\OBJ\\PineTree_4.obj" 
+		},
+		{ 
+			"name"     : "Plant_3", 
+			"filename" : "MODELS\\OBJ\\Plant_3.obj" 
+		}
+	],
+	"ModelInstances" : [
+		{ 
+			"model"  : "Plant_3", 
+			"row"    : 1,
+			"column" : 3,
+			"scale"  : 1.5,
+			"rotation" : [0.0, 25.0, 0.0]
+		},
+		{ 
+			"model"  : "Rock_Moss_5", 
+			"row"    : 0,
+			"column" : 0,
+			"scale"  : 1.5,
+			"rotation" : [0.0, 0.0, 0.0]
+		},
+		{ 
+			"model"  : "BushBerries_1", 
+			"row"    : 1,
+			"column" : 4,
+			"scale"  : 1.25,
+			"rotation" : [0.0, 10.0, 0.0]
+		}
+	]
 }
